@@ -1,0 +1,19 @@
+<Alloy>
+	<Tab title="PhotoList">
+		<Window title="PhotoList" class='container'>
+			<ListView id="listView">
+				<Templates>
+					<ItemTemplate name="listViewTemplate" height='100dp'>
+						<View id="templateWrapper">
+							<ImageView bindId="thumbImage" id="thumbImage" image="photosArray"/>
+							<View id="textWrapper">
+								<Label bindId="fileName" id="fileName"/>
+							</View>
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection/>
+			</ListView>
+		</Window>
+	</Tab>
+</Alloy>
