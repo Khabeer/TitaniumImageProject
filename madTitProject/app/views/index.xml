@@ -8,4 +8,5 @@
 			</Window>
 		</Tab>
 	</TabGroup>
+	<require src ="photosView"/>
 </Alloy>	
